@@ -2,17 +2,24 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #0f1179;
-  color: #ffffff;
+  background-color: #f9f9fc;
+  color: var(--primary-color);
 }
 
 :root {
-  --primary-color: #f8ba5c;
+  --primary-color: #100747;
   --font-title: 2rem;
   --radius: 12px;
   --font-size: 1.2rem;
   --family:times new roman;
 
+}
+.food-image {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  margin-top: 20px;
+  align-items: center;
 }
 #detail-1 {
   color: var(--primary-color);
