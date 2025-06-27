@@ -14,12 +14,16 @@ body {
   --family:times new roman;
 
 }
-.food-image {
-  width: 100%;
-  height: auto;
-  border-radius: var(--radius);
-  margin-top: 20px;
+.img-container {
+  display: flex;
+  justify-content: center;
   align-items: center;
+
+}
+
+.img-container img {
+  max-width: 100%;
+  height: auto;
 }
 #detail-1 {
   color: var(--primary-color);
@@ -54,4 +58,19 @@ h2 {
 
 .title {
   font-size: 65px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto ;
+  padding: 20px;
+   background-color: lightblue;
+}
+.video-container video {
+  max-width: 100%;  
+  height: auto;
+  display: block;
 }
