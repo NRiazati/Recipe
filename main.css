@@ -18,16 +18,18 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 
 }
 
 .img-container img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
+  max-width: 1300px;
 }
 #detail-1 {
   color: var(--primary-color);
-  font-size: 15px;
+  font-size: 20px;
   font-family: var(--family);
   text-align: center;
   margin-top: 20px;
@@ -58,7 +60,7 @@ h2 {
 }
 
 .title {
-  font-size: 65px;
+  font-size: 50px;
 }
 
 .video-container {
@@ -75,7 +77,6 @@ h2 {
   height: auto;
   display: block;
 }
-
 
 
 nav {
@@ -117,7 +118,7 @@ nav a {
 
 
 nav a:hover {
-  background-color: #22476e;
+  background-color: #778ea7;
 }
 
 footer {
